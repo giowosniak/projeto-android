@@ -1,0 +1,237 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Wallpoet&display=swap');
+
+/*
+*/
+
+:root {
+    --corfundo: #9BDBAC;
+    --corandroid: #6ED489;
+    --verdemedio: #36BA59;
+    --verdeescuro: #54A168;
+    --corescura: #2C5437;
+
+    --fonte-padrao: 'Oswald', sans-serif;
+    --fonte-titulo: 
+}
+
+body {
+    background-color: var(--corfundo);
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    
+}
+
+header {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    background: #6ED489 ;
+    background: linear-gradient(to top, #2c5437cb 0%, #54A168 10%, #6ED489 100%);
+    min-height: 150px;
+    padding: 10px;
+    padding-bottom: 0px;
+    margin: 0;
+    text-align: center;
+}
+
+header h1 {
+   text-align: center;
+   font-size: 3em;
+   text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.486);
+}
+
+header h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+    padding-bottom: 30px;
+    color: #f5f5f5;
+    max-width: 600px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.486);
+}
+
+nav {
+    padding: 10px;
+    max-width: 330px;
+    text-align: left;
+}
+nav a {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px;
+    margin-bottom: 15px;
+    transition-duration: 0.5s;
+}
+
+nav a:hover {
+    background-color: #3fa766;
+    font-size: 17px;
+    border-radius: 5px;
+    padding-bottom: 10px;
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+   background-color: white;
+   border-end-start-radius: 10px;
+   border-end-end-radius: 10px;
+   margin: auto;
+  
+
+}
+
+main img {
+    width: 100%;
+}
+
+main img.pequena {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+main section.principal {
+    padding: 20px;
+}
+
+main section.principal > h1,h2{
+    font-family: 'Wallpoet', cursive;
+    font-weight: normal;
+    color: #028836;
+}
+
+main section.principal > p {
+    font-family: 'Oswald', sans-serif;
+    font-weight: lighter;
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2em;
+}
+
+main section.principal > h2 {
+    background: linear-gradient(to right, rgb(169, 241, 201) 0%, rgb(200, 241, 219) 50%, white 100%);
+}
+
+
+
+.link {
+    text-decoration: none;
+    color: #02b939;
+}
+
+.link:hover {
+    text-decoration: underline;
+    font-size: 1.1em;
+}
+
+.link::after {
+    content: '🔗';
+}
+
+strong {
+    color: #02b939;
+}
+
+
+.video {
+    outline: 0px;
+    background-color: #025220;
+    padding: 20px; 
+    padding-bottom: 59%; 
+    position: relative;
+}
+
+.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+aside {
+    font-family: 'Oswald', sans-serif;
+    font-weight: lighter;
+    border-radius: 15px;
+    margin: 20px;
+    background-color: #9de7b3;
+}
+
+aside h3 {
+    background-color: #02b939;
+    margin: 0px;
+    color: white;
+    letter-spacing: 1px;
+    /*da pra usar margem negativa para crescer margem pros lados ou em cima*/
+    margin-top: 0px;
+    padding: 10px;
+    padding-left: 30px;
+   border-top-left-radius: 15px;
+    border-top-right-radius: 15px;  
+}
+
+aside .lista {
+    padding: 0.5px 20px;
+}
+
+
+
+ul {
+    list-style: none;
+    padding-right: 3px;
+    columns: 2;
+}
+
+/*ul li {
+    width: 50%;
+    float: left;
+    /*da pra usar columns:numero de colunas q quer
+    list-style-type:'/códigosimbolo/00A0(esse significa espaço sem quebra)'
+    */
+
+
+li::before {
+    content: '✔';
+    margin-right: 3px;
+}
+
+.texto {
+    padding: 0.5px 20px;
+}
+
+.encerramento {
+    font-family: 'Oswald', sans-serif;
+    font-weight: lighter;
+    font-size: 18px;
+    padding: 0.5px 20px;
+}
+
+footer {
+    font-family: 'Oswald', sans-serif;
+    font-weight: lighter;
+    color: white;
+    background-color: #025220;
+    
+    
+    text-align: center;
+
+}
+
+footer > p {
+    padding-top: 3px;
+    margin-bottom: 0px;
+    
+}
+
+
+
+
+
+
+
+
